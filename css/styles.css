@@ -1,0 +1,88 @@
+
+input[type=text] {
+  display: block;
+  margin: 80px auto 20px;
+  width: 85%;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 2px lightgrey solid;
+  border-radius: 4px;
+  color: grey;
+  transition: .3s;
+}
+
+input[type=text]:focus {
+  outline: none;
+  border-color: tomato;
+  background-color: #dadada;
+}
+
+a {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.gallery {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.lb.datacontainer span{
+  max-width: 600px;
+  font-size: 28px;
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+
+  input[type=text] {
+    width: 55%;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+  }
+
+  a {
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (min-width: 830px) {
+
+  input[type=text] {
+    width: 45%;
+  }
+
+  .gallery {
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  a {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (min-width: 1160px) {
+
+  input[type=text] {
+    width: 35%;
+  }
+
+  .gallery {
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 70%;
+  }
+
+  a {
+    padding: 40px 20px;
+  }
+}
