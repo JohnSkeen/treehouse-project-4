@@ -3,6 +3,7 @@ lightbox.option({
 });
 
 
+
 const search = document.getElementById("search");
 const image = document.querySelectorAll("a[data-title]");
 

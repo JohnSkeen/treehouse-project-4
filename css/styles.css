@@ -30,7 +30,7 @@ img {
   width: 100%;
 }
 
-.gallery {
+.photo-gallery {
   display: grid;
   width: 90%;
   margin: 20px auto;
@@ -58,7 +58,7 @@ img {
     width: 55%;
   }
 
-  .gallery {
+  .photo-gallery {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 80%;
@@ -75,7 +75,7 @@ img {
     width: 45%;
   }
 
-  .gallery {
+  .photo-gallery {
     grid-template-columns: 33.33% 33.33% 33.33%;
     margin: 20px auto;
     width: 80%;
@@ -92,7 +92,7 @@ img {
     width: 35%;
   }
 
-  .gallery {
+  .photo-gallery {
     grid-template-columns: 25% 25% 25% 25%;
     width: 70%;
   }
