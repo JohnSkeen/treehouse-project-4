@@ -1,16 +1,11 @@
-lightbox.option({
-  'showImageNumberLabel' : false
-});
-
-
 
 const search = document.getElementById("search");
-const image = document.querySelectorAll("a[data-title]");
+const image = document.querySelectorAll("a[data-caption]");
 
 search.addEventListener("keyup", function(event) {
   let result = search.value.toUpperCase();
   for (let i=0; i<image.length; i++){
-    let title = image[i].getAttribute("data-title");
+    let title = image[i].getAttribute("data-caption");
     if (title.toUpperCase().includes(result)) {
       // image[i].style.display = '';
       image[i].classList.add('selected');
